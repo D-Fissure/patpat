@@ -9,11 +9,11 @@
 .macbook-air .div {
   background-color: #1d1d1d;
   width: 1280px;
-  height: 2078px;
+  height: 2198px;
   position: relative;
 }
 
-.macbook-air .overlap {
+.macbook-air .head-content {
   position: absolute;
   width: 1280px;
   height: 648px;
@@ -74,10 +74,10 @@
   line-height: normal;
 }
 
-.macbook-air .overlap-group {
+.macbook-air .game-video {
   position: absolute;
   width: 1280px;
-  height: 600px;
+  height: 720px;
   top: 700px;
   left: 0;
 }
@@ -148,11 +148,22 @@
   position: absolute;
   width: 180px;
   height: 60px;
-  top: 1620px;
+  top: 1740px;
   left: 446px;
   background-color: #3c3c3c;
   border-radius: 18px;
 }
+
+.macbook-air .img-wrapper {
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  top: 1740px;
+  left: 660px;
+  background-color: #3c3c3c;
+  border-radius: 18px;
+}
+
 
 .macbook-air .img {
   width: 112px;
@@ -163,15 +174,6 @@
   object-fit: cover;
 }
 
-.macbook-air .img-wrapper {
-  position: absolute;
-  width: 180px;
-  height: 60px;
-  top: 1620px;
-  left: 660px;
-  background-color: #3c3c3c;
-  border-radius: 18px;
-}
 
 .macbook-air .image-2 {
   position: absolute;
@@ -187,7 +189,7 @@
   position: absolute;
   width: 32px;
   height: 32px;
-  top: 1873px;
+  top: 1993px;
 }
 
 .macbook-air .socials-3 {
@@ -195,7 +197,7 @@
   position: absolute;
   width: 32px;
   height: 32px;
-  top: 1873px;
+  top: 1993px;
 }
 
 .macbook-air .socials-4 {
@@ -203,18 +205,18 @@
   position: absolute;
   width: 32px;
   height: 32px;
-  top: 1873px;
+  top: 1993px;
 }
 
-.macbook-air .overlap-group-2 {
+.macbook-air .contact-us {
   position: absolute;
   width: 352px;
   height: 33px;
-  top: 1792px;
+  top: 1912px;
   left: 464px;
 }
 
-.macbook-air .text-wrapper-6 {
+.macbook-air .head-text-1 {
   position: absolute;
   width: 347px;
   top: 0;
@@ -247,10 +249,10 @@
   object-fit: cover;
 }
 
-.macbook-air .text-wrapper-7 {
+.macbook-air .download-head-text {
   position: absolute;
   width: 347px;
-  top: 1574px;
+  top: 1694px;
   left: 469px;
   font-family: "Franklin Gothic Demi-Regular", Helvetica;
   font-weight: 400;
@@ -261,23 +263,23 @@
   line-height: normal;
 }
 
-.macbook-air .overlap-2 {
+.macbook-air .about-us {
   position: absolute;
   width: 352px;
   height: 33px;
-  top: 1954px;
+  top: 2074px;
   left: 464px;
 }
 
-.macbook-air .flexcontainer {
+.macbook-air .introduction {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  position: absolute;
+  position: relative;
   width: 436px;
   height: 147px;
-  top: 1378px;
+  top: 1498px;
   left: 424px;
 }
 
@@ -302,15 +304,27 @@
   line-height: 20px;
 }
 
-.macbook-air .text-wrapper-8 {
+.macbook-air .intro-text {
   font-family: "Franklin Gothic Book-Regular", Helvetica;
 }
 
-.macbook-air .image-3 {
+.macbook-air .logo-org {
   width: 60px;
   height: 60px;
-  top: 2000px;
+  top: 2120px;
   left: 612px;
   position: absolute;
   object-fit: cover;
+}
+
+.iframe-container {
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
 }
